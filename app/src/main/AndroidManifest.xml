@@ -48,8 +48,17 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 				<category android:name="android.intent.category.DEFAULT" />
 			</intent-filter>
 		</activity>
-
+		
 		<activity
+		        android:name=".Nstyle"
+			android:label="Custom Headers" >
+			<intent-filter>
+			        <action android:name="org.omnirom.DaylightHeaderPack1" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+                </activity>			
+			 
+		<activity		
 			android:name=".paulaosip"
 			android:label="PaulWalls Kronic 3.0" >
 			<intent-filter>
@@ -63,7 +72,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 			android:label="JayRod (random)" >
 			<intent-filter>
 				<action android:name="org.omnirom.DaylightHeaderPack1" />
-
 				<category android:name="android.intent.category.DEFAULT" />
 			</intent-filter>
 		</activity>
