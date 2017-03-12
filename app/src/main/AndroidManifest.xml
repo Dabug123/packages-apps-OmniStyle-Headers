@@ -35,7 +35,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
             android:theme="@android:style/Theme.Material.Settings" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -50,13 +49,22 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 		</activity>
 		
 		<activity
-		        android:name=".Nstyle"
+             		android:name=".Nstyle"
 			android:label="Custom Headers" >
 			<intent-filter>
 			        <action android:name="org.omnirom.DaylightHeaderPack1" />
 				<category android:name="android.intent.category.DEFAULT" />
 			</intent-filter>
-                </activity>			
+                </activity>
+
+                <activity
+		        android:name=".citystyle"
+			android:label="CityStyle" >
+			<intent-filter>
+			        <action android:name="org.omnirom.DaylightHeaderPack1" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+                </activity>				
 			 
 		<activity		
 			android:name=".paulaosip"
